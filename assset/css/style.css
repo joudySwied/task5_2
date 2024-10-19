@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    background-image: url("../img/pexels-ron-lach-9785613.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #070707;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.789);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    width: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+input ,select {
+    border:2px solid #5c4b9b;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #000000;
+}
+
+
+button {
+    background-color: #5c4b9b;
+    color: #000000;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5c4b9b;
+}
+
+.result {
+    border:2px solid #5c4b9b;
+    padding: 30px 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+
+

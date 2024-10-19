@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conversion of Units of measurement</title>
+    <link rel="stylesheet" href="./assset/css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css"
+
+
+</head>
+<body>
+    <div class="body">
+        <div class="container">
+            <h1> conversion of Units of measurement </h1>
+            <input type="number" id="inputValue" placeholder="Enter the number " required>
+            
+            <select id="fromUnit">
+                <option value="mm">mm</option>
+                <option value="cm">cm</option>
+                <option value="meters">m</option>
+                <option value="kilometers">km</option>
+                <option value="grams">g</option>
+                <option value="kilograms">kg</option>
+                <option value="h">hour</option>
+                <option value="min">minute</option>
+                <option value="second">second</option>
+                <option value="km/h">km/h</option>
+                <option value="m/s">m/s</option>
+                <option value="watt">watt</option>
+                <option value="hp">hp</option>
+            </select>
+    
+            <select id="toUnit">
+                <option value="mm">mm</option>
+                <option value="cm">cm</option>
+                <option value="meters">m</option>
+                <option value="kilometers">km</option>
+                <option value="grams">g</option>
+                <option value="kilograms">kg</option>
+                <option value="h">hour</option>
+                <option value="min">minute</option>
+                <option value="second">second</option>
+                <option value="km/h">km/h</option>
+                <option value="m/s">m/s</option>
+                <option value="watt">watt</option>
+                <option value="hp">hp</option>
+            </select>
+    
+            <button onclick="convertUnits()">convert</button>
+            
+            <div class="result" id="resultDisplay"> </div>
+        </div>
+    </div>
+
+
+
+    <script src="./assset/js/script.js"></script>
+</body>
+</html>
